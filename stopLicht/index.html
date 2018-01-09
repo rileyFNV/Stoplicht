@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Verkeersplein</title>
+</head>
+<body background="img/kruising.png">
+<form>
+    <h1>Stoplicht1.html</h1>
+    <p>Automatisch Stoplicht</p>
+    <img id="stoplicht" src="img/stoplichtuit.png" width="20px" height="40px">
+    <img id="stoplicht2" src="img/stoplichtuit.png" width="20px" height="40px">
+    <p>Druk op de juiste knop (maar een keer!)</p>
+    <input type="button" value="aanzetten" onclick="aanzetten()">
+    <input type="button" value="knipperen" onclick="knipperen()">
+    <input type="button" value="uitzetten" onclick="uitzetten()">
+    <input type="button" value="start" onclick="controller()">
+    <input type="button" value="opnieuw" onclick="opnieuw()">
+    <input type="button" value="stop" onclick="stop()">
+    <img id="auto" src="img/autogroen.png">
+    <img id="auto2" src="img/autoblauw.png">
+    <img id="auto3" src="img/autorood.png">
+    <img id="auto4" src="img/autooranje.png">
+</form>
+
+<script src="stoplicht.js">
+</script>
+</body>
+</html>
